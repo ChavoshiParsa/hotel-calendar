@@ -73,7 +73,7 @@ export default function App() {
           }}
           showWeekdayLabels={true}
           onClick={cellHandler}
-          onMouseOver={(event, value) => setCurrentDate(value.date)}
+          onMouseOver={(_event, value) => setCurrentDate(value.date)}
         />
       </div>
       <div className="output">{outPut}</div>
