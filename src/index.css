@@ -11,10 +11,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .calendar-control {
-  width: 70rem;
+  width: 60rem;
 }
 
 .react-calendar-heatmap .today-cell {
@@ -53,4 +54,13 @@
   bottom: 150px;
   margin: 0 150px;
   text-align: center;
+}
+
+.calendar button {
+  padding: 5px 8px;
+  background-color: rgb(56, 56, 255);
+  color: white;
+  border-radius: 3px;
+  font-size: 20px;
+  border: none;
 }
